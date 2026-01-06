@@ -43,9 +43,7 @@ alias update='sudo apt update && sudo apt upgrade -y'
 alias autoremove='sudo apt autoremove -y'
 
 # Editors & Configs
-# Note: Choose one editor alias. I defaulted to 'code', uncomment 'antigravity' if preferred.
-alias bashrc='code ~/.bashrc'
-# alias bashrc="antigravity ~/.bashrc"
+alias bashrc='antigravity ~/.bashrc'
 alias zshrc="antigravity ~/.zshrc"
 alias agy="antigravity"
 

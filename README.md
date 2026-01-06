@@ -36,6 +36,7 @@ alias lr='ls -tR'         # Sort by date, recursive
 alias du="du -h"
 alias df="df -h"
 alias free="free -m"
+
 # Find largest files/dirs (top 15)
 alias ducks='du -cksh * | sort -hr | head -n 15'
 
@@ -44,9 +45,7 @@ alias update='sudo apt update && sudo apt upgrade -y'
 alias autoremove='sudo apt autoremove -y'
 
 # Editors & Configs
-# Note: Choose one editor alias. I defaulted to 'code', uncomment 'antigravity' if preferred.
-alias bashrc='code ~/.bashrc'
-# alias bashrc="antigravity ~/.bashrc"
+alias bashrc='antigravity ~/.bashrc'
 alias zshrc="antigravity ~/.zshrc"
 alias agy="antigravity"
 
